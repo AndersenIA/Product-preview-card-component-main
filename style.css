@@ -131,6 +131,10 @@ h1 {
   color: hsl(212, 21%, 14%);
 }
 
+.mobile-img {
+  display: none;
+}
+
 .description {
   padding-block: 1.5rem;
   display: flex;
@@ -194,8 +198,22 @@ button {
 /**********************************************************************************/
 
 @media (max-width: 40em) {
+  body {
+    display: flex;
+  }
+
   .card {
     display: flex;
     flex-direction: column;
+    width: auto;
+    margin-inline: 1.5rem;
+  }
+
+  .perfume-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
   }
 }
