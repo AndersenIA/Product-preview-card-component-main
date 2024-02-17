@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-I have not currently uploaded this challenge to any site.
+[Github pages](https://andersenia.github.io/Product-preview-card-component-main/)
 
 ## My process
 
