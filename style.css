@@ -175,6 +175,12 @@ button {
   color: #fff;
 }
 
+button:hover,
+button:active {
+  background-color: hsl(157, 78%, 5%);
+  color: hsl(30, 38%, 92%);
+}
+
 .attribution {
   color: hsl(228, 12%, 48%);
   margin-top: 2rem;
